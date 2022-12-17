@@ -1,0 +1,67 @@
+.introducao-bg {
+    /* Aqui definimos o background do conteiner */
+    background: #000;
+    color: #fff;
+    /* Aqui fazemmos a ilusão para a img parecer vazar do container */
+    box-shadow: inset 0 -120px 0 #ffffff;
+}
+
+.introducao a {
+    color: inherit;
+}
+
+.introducao {
+    /* Aqui definimos o display grid e centralizamos os itens que estão dentro de introdução, utilizamos alguns estilos usados anteriormente para deixar tudo centralizado.  */
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+}
+
+.introducao h1 span {
+    color: #e5a40b;
+}
+
+.introducao a {
+    /* todo link que estiver dentro de introdução receberá esse estilo abaixo*/
+    display: inline-block;
+    padding: 16px 32px;
+    background: #f2a60c;
+    color: #332200;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.introducao a:hover {
+    background: #e59317;
+}
+
+.introducao-conteudo {
+    align-self: end;
+    padding-bottom: 200px;
+}
+
+.introducao-conteudo p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #b2b2b2;
+}
+
+.introducao img {
+    height: 100%;
+    object-fit: cover;
+}

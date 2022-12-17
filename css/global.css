@@ -7,8 +7,19 @@ a {
     text-decoration: none;
 }
 
+h1,
+p,
 ul {
     margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+ul {
     padding: 0px;
     list-style: none;
 }
