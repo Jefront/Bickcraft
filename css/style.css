@@ -1,3 +1,22 @@
-@import url("./global.css");
-@import url("./header.css");
-@import url("./introducao.css");
+/* estilos globais */
+
+@import url("./global/global.css");
+@import url("./utilidades/tipografia.css");
+@import url("./utilidades/cores.css");
+@import url("./global/header.css");
+
+/* estilo de compenentes e utilidades */
+
+@import url("./utilidades/componentes.css");
+
+/*home */
+
+@import url("./home/introducao.css");
+
+/* Tecnologias */
+
+@import url("./home/tecnologia.css");
+
+/* bicicletas */
+
+@import url("./bicicletas/bicicletas-lista.css");
