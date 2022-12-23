@@ -20,3 +20,7 @@
 /* bicicletas */
 
 @import url("./bicicletas/bicicletas-lista.css");
+
+/* parceiros */
+
+@import url("./home/parceiros.css");
