@@ -28,3 +28,15 @@
 /* Depoimento */
 
 @import url("./home/depoimento.css");
+
+/* Seguros */
+
+@import url("./seguros/seguros.css");
+
+/* Footer */
+
+@import url("./global/footer.css");
+
+/* pagina termos */
+
+@import url("./termos/termos.css");
