@@ -20,6 +20,7 @@
 /* bicicletas */
 
 @import url("./bicicletas/bicicletas-lista.css");
+@import url("./bicicletas/bicicletas.css");
 
 /* parceiros */
 
@@ -32,6 +33,8 @@
 /* Seguros */
 
 @import url("./seguros/seguros.css");
+@import url("./seguros/vantagens.css");
+@import url("./seguros/perguntas.css");
 
 /* Footer */
 
