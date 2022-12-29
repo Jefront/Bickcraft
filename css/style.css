@@ -22,6 +22,10 @@
 @import url("./bicicletas/bicicletas-lista.css");
 @import url("./bicicletas/bicicletas.css");
 
+/* bicicleta internas */
+
+@import url("./bicicleta/bicicleta.css");
+
 /* parceiros */
 
 @import url("./home/parceiros.css");
