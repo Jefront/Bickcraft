@@ -9,6 +9,7 @@
     padding: 20px;
     align-self: end;
     justify-self: center;
+    background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
 }
 
 .depoimento-conteudo p {
@@ -17,6 +18,7 @@
     font-weight: 900;
     max-width: 30ch;
     position: relative;
+    margin-bottom: 60px;
 }
 
 .depoimento-conteudo p::before,
@@ -42,6 +44,12 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+    .depoimento img {
+        max-height: 520px;
+    }
 }
 
 @media (max-width: 800px) {

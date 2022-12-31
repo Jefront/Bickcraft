@@ -1,6 +1,6 @@
 .introducao-bg {
     /* Aqui definimos o background do conteiner */
-    background: var(--cor-12);
+    background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 160px left;
     color: var(--cor-0);
     /* Aqui fazemmos a ilusão para a img parecer vazar do container */
     box-shadow: inset 0 -120px 0 var(--cor-0);

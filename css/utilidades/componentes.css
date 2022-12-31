@@ -84,7 +84,7 @@
 .titulo-bg {
     padding-left: 60px;
     padding-right: 60px;
-    background: var(--cor-11);
+    background-color: var(--cor-11);
 }
 
 .titulo p {

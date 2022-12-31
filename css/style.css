@@ -34,6 +34,10 @@
 @import url("./bicicleta/bicicleta.css");
 @import url("./bicicleta/seguro.css");
 
+/* Orçamento */
+
+@import url("./orcamento/orcamento.css");
+
 /* parceiros */
 
 @import url("./home/parceiros.css");
