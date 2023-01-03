@@ -51,7 +51,7 @@
                     <li>Suporte 08h às 18h.</li>
                     <li>Cobertura estadual</li>
                 </ul>
-                <a class="botao secundario" href="orcamento.html">INSCREVA-SE</a>
+                <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">INSCREVA-SE</a>
             </div>
             <div class="seguros-item">
                 <h3 class="font-1-xl cor-p1">OURO</h3>
@@ -64,7 +64,7 @@
                     <li>Descontos em parceiros</li>
                     <li>Acesso ao club bickcraft</li>
                 </ul>
-                <a class="botao " href="orcamento.html">INSCREVA-SE</a>
+                <a class="botao " href="orcamento.html?tipo=seguro&produto=ouro">INSCREVA-SE</a>
             </div>
         </div>
 
@@ -115,24 +115,24 @@
         <h2 class=" font-1-xxl ">perguntas frequentes<span class=" cor-p1 ">.</span></h2>
         <dl>
             <div>
-                <dt class="font-1-m-b ">Qual forma de pagamento vocês aceitam?</dt>
-                <dd class="font-2-s cor-9 ">Aceitamos cartões de crédito nas bandeiras: Visa, ELO, Master, Basnesfácil. Para seguimentos à vista também aceitamos PIX através do PagSeguro.</dd>
+                <dt><button class="font-1-m-b " aria-controls="pergunta1" aria-expanded="true">Qual forma de pagamento vocês aceitam?</button></dt>
+                <dd id="pergunta1" class="font-2-s cor-9  ativa">Aceitamos cartões de crédito nas bandeiras: Visa, ELO, Master, Basnesfácil. Para seguimentos à vista também aceitamos PIX através do PagSeguro.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b ">Qual tempo médio de frete?</dt>
-                <dd class="font-2-s cor-9 ">5 dias.</dd>
+                <dt><button class="font-1-m-b " aria-controls="pergunta2" aria-expanded="false">Qual tempo médio de frete?</button></dt>
+                <dd id="pergunta2" class="font-2-s cor-9 ">5 dias.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b ">Entregam no norte?</dt>
-                <dd class="font-2-s cor-9 ">Sim, entregamos em todo o Brasil. </dd>
+                <dt><button class="font-1-m-b " aria-controls="pergunta3" aria-expanded="false">Entregam no norte?</button></dt>
+                <dd id="pergunta3" class="font-2-s cor-9 ">Sim, entregamos em todo o Brasil. </dd>
             </div>
             <div>
-                <dt class="font-1-m-b ">Passa por Curitiba, não né?</dt>
-                <dd class="font-2-s cor-9 ">Passa pela rodovia. </dd>
+                <dt><button class="font-1-m-b " aria-controls="pergunta4" aria-expanded="false">Passa por Curitiba, não né ?</button></dt>
+                <dd id="pergunta4" class="font-2-s cor-9 ">Passa pela rodovia. </dd>
             </div>
             <div>
-                <dt class="font-1-m-b ">Aceita vale-alimentação em troca?</dt>
-                <dd class="font-2-s cor-9 ">Só trabalhamos com dinheiro, pix, cartão e PagSeguro</dd>
+                <dt><button class="font-1-m-b " aria-controls="pergunta5" aria-expanded="false">Aceita vale-alimentação em troca?</button></dt>
+                <dd id="pergunta5" class="font-2-s cor-9 ">Só trabalhamos com dinheiro, pix, cartão e PagSeguro</dd>
             </div>
         </dl>
     </article>
@@ -174,6 +174,7 @@
             <p class=" font-2-m cor-6 footer-copy ">Origamid. Alguns Direitos Reservados.</p>
         </div>
     </footer>
+    <script src="./js/sricpt.js"></script>
 </body>
 
 </html>
